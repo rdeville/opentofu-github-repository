@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.9.3 (2026-02-08)
+
+### 🩹 Patch
+
+  * 👽️ Remove var has_downloads as deprecated in github provider v6.11 (!20) by Romain Deville ([`d16d2d7`](https://framagit.org/rdeville-public/opentofu/github-repository/-/commit/d16d2d7ff5300757933395a982754474848ddacf))
+  * 👽️ Remove var has_downloads as deprecated in github provider v6.11 by Romain Deville ([`08cc2c7`](https://framagit.org/rdeville-public/opentofu/github-repository/-/commit/08cc2c716f44c6b502c082d6d43068d540e3733a)) 🔏
+
+### 🔊 Others
+
+  * 📝 Update README with tf-docs by Romain Deville ([`828a252`](https://framagit.org/rdeville-public/opentofu/github-repository/-/commit/828a252433600406877963e894e907b060db15fe)) 🔏
+
 ## v0.9.2 (2025-02-08)
 
 ### 🩹 Patch

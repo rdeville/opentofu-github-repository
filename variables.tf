@@ -216,17 +216,6 @@ variable "settings_web_commit_signoff_required" {
   default  = true
 }
 
-variable "settings_has_downloads" {
-  type        = bool
-  description = <<-EOM
-  Boolean, optional, set to `true` to enable the (deprecated) downloads features
-  on the repository.
-  EOM
-
-  nullable = false
-  default  = false
-}
-
 variable "settings_auto_init" {
   type        = bool
   description = <<-EOM

@@ -574,7 +574,6 @@ string
 * [settings_merge_commit_message](#settings_merge_commit_message)
 * [settings_delete_branch_on_merge](#settings_delete_branch_on_merge)
 * [settings_web_commit_signoff_required](#settings_web_commit_signoff_required)
-* [settings_has_downloads](#settings_has_downloads)
 * [settings_auto_init](#settings_auto_init)
 * [settings_gitignore_template](#settings_gitignore_template)
 * [settings_license_template](#settings_license_template)
@@ -1066,32 +1065,6 @@ Defaults to `true`.
 
   ```hcl
   true
-  ```
-
-  </div>
-</details>
-
-##### `settings_has_downloads`
-
-Boolean, optional, set to `true` to enable the (deprecated) downloads features
-on the repository.
-
-<details style="width: 100%;display: inline-block">
-  <summary>Type & Default</summary>
-  <div style="height: 1em"></div>
-  <div style="width:64%; float:left;">
-  <p style="border-bottom: 1px solid #333333;">Type</p>
-
-  ```hcl
-  bool
-  ```
-
-  </div>
-  <div style="width:34%;float:right;">
-  <p style="border-bottom: 1px solid #333333;">Default</p>
-
-  ```hcl
-  false
   ```
 
   </div>

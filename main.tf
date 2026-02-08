@@ -21,7 +21,6 @@ resource "github_repository" "this" {
   merge_commit_message        = var.settings_merge_commit_message
   delete_branch_on_merge      = var.settings_delete_branch_on_merge
   web_commit_signoff_required = var.settings_web_commit_signoff_required
-  has_downloads               = var.settings_has_downloads
   auto_init                   = var.settings_auto_init
   gitignore_template          = var.settings_gitignore_template
   license_template            = var.settings_license_template
